@@ -1,0 +1,60 @@
+/* You can add global styles to this file, and also import other style files */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: Arial, sans-serif; background: #f0f0f0; padding: 20px; }
+
+/* Snackbar Styles */
+.success-snackbar {
+  .mdc-snackbar__surface {
+    background-color: #28a745 !important;
+  }
+  
+  .mat-mdc-snack-bar-label {
+    color: white !important;
+  }
+  
+  .mat-mdc-button {
+    color: white !important;
+  }
+}
+
+.error-snackbar {
+  .mdc-snackbar__surface {
+    background-color: #dc3545 !important;
+  }
+  
+  .mat-mdc-snack-bar-label {
+    color: white !important;
+  }
+  
+  .mat-mdc-button {
+    color: white !important;
+  }
+}
+
+.warning-snackbar {
+  .mdc-snackbar__surface {
+    background-color: #ffc107 !important;
+  }
+  
+  .mat-mdc-snack-bar-label {
+    color: #333 !important;
+  }
+  
+  .mat-mdc-button {
+    color: #333 !important;
+  }
+}
+
+.info-snackbar {
+  .mdc-snackbar__surface {
+    background-color: #17a2b8 !important;
+  }
+  
+  .mat-mdc-snack-bar-label {
+    color: white !important;
+  }
+  
+  .mat-mdc-button {
+    color: white !important;
+  }
+}
